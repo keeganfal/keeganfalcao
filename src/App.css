@@ -1,38 +1,217 @@
-.App {
-  text-align: center;
+
+@font-face {
+  font-family: "Linguistic";
+  src: local("Linguistic"),
+      url("./assets/LinguisticsPro-Regular.otf") format("opentype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Linguistic-Italic";
+  src: local("Linguistic-Italic"),
+      url("./assets/LinguisticsPro-Italic.otf") format("opentype");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+  font-family: "Linguistic";
+  font-weight: 700;
+  font-size: 1.491rem;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 1;
+  padding-top: 3vh;
+  align-items: center;
+  height: 10vh;
+}
+header #titleicon {
+  color: #bae8e8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+header .header__title {
+  padding-left: 50px;
+  color: #170f49;
+  text-decoration: none;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+header .header__title:hover {
+  -webkit-text-decoration: underline #bae8e8 wavy 5px;
+          text-decoration: underline #bae8e8 wavy 5px;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header .header__navbar {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-family: "Linguistic";
+  align-items: center;
+  flex-direction: column;
+}
+header .header__navbar .header__navitem {
+  color: #555555;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.125rem;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.body-container{
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #3e3e3e;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+}
+
+.heading-hey {
+  font-size: 2rem;
+}
+
+.heading-container {
+  height: 90vh;
+}
+
+.heading {
+  font-family: Linguistic-Italic;
+  font-size: 4rem;
+  font-weight: bolder;
+  opacity: 0;
+  position: relative;
+  margin-top: 10vh;
+  margin-left: 30%;
+  transform: translateX(-200%);
+  animation: heading 1.5s ease-out forwards;
+}
+
+.section-container{
+
+}
+
+.sub-heading {
+  font-family: Linguistic;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 30%;
+  transform: translateX(200%);
+  animation: sub-heading 1.7s ease-out forwards;
+}
+
+.section {
+  margin-left: 5%;
+  margin-right: 5%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Linguistic;
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.email{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #3e3e3e;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  font-size: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes heading {
+  20% {
+  opacity: 0;
+}
+75% {
+      opacity: 0.7;
+  transform: translateX(-35%);
+}
+100% {
+  opacity: 1;
+  transform: translateX(-35%);
+}
+}
+
+@keyframes sub-heading {
+  20% {
+  opacity: 0;
+}
+75% {
+      opacity: 0.7;
+  transform: translateX(-36%);
+}
+100% {
+  opacity: 1;
+  transform: translateX(-35%);
+}
+}
+
+
+@media only screen and (min-width: 600px) {
+  .body-container{
+      margin-left: 8%;
+      margin-right: 8%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .heading {
+      margin-top: 20vh;
+      font-size: 4.5;
+      .heading-hey {
+          font-size: 2.5rem;
+      }
+  }
+  
+  .sub-heading {
+      font-size: 2.5rem;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .body-container{
+      margin-left: 8%;
+      margin-right: 8%;
+  }
+
+  .heading {
+      margin-top: 20vh;
+      font-size: 6rem;
+      .heading-hey {
+          font-size: 3rem;
+      }
+  }
+  
+  .sub-heading {
+      font-size: 3rem;
+  }
+  
+  .section-heading {
+      font-size: 4rem;
+      font-weight: bold;
+  }    
+
+  p {
+      font-size: 1.5rem;
   }
 }
