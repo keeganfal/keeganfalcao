@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.abd4e103.css",
-    "main.js": "/static/js/main.cc1e7a7e.js",
-    "static/media/LinguisticsPro-Italic.otf": "/static/media/LinguisticsPro-Italic.dff969b5a607a925e89e.otf",
-    "static/media/LinguisticsPro-Regular.otf": "/static/media/LinguisticsPro-Regular.b26c785e8e61480815ea.otf",
-    "index.html": "/index.html",
-    "main.abd4e103.css.map": "/static/css/main.abd4e103.css.map",
-    "main.cc1e7a7e.js.map": "/static/js/main.cc1e7a7e.js.map"
+    "main.css": "/keeganfalcao/static/css/main.3cdb32e8.css",
+    "main.js": "/keeganfalcao/static/js/main.cc1e7a7e.js",
+    "static/media/LinguisticsPro-Italic.otf": "/keeganfalcao/static/media/LinguisticsPro-Italic.dff969b5a607a925e89e.otf",
+    "static/media/LinguisticsPro-Regular.otf": "/keeganfalcao/static/media/LinguisticsPro-Regular.b26c785e8e61480815ea.otf",
+    "index.html": "/keeganfalcao/index.html",
+    "main.3cdb32e8.css.map": "/keeganfalcao/static/css/main.3cdb32e8.css.map",
+    "main.cc1e7a7e.js.map": "/keeganfalcao/static/js/main.cc1e7a7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.abd4e103.css",
+    "static/css/main.3cdb32e8.css",
     "static/js/main.cc1e7a7e.js"
   ]
 }
