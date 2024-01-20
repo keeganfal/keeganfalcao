@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/keeganfalcao/static/css/main.3cdb32e8.css",
-    "main.js": "/keeganfalcao/static/js/main.cc1e7a7e.js",
+    "main.js": "/keeganfalcao/static/js/main.ffaed7ce.js",
     "static/media/LinguisticsPro-Italic.otf": "/keeganfalcao/static/media/LinguisticsPro-Italic.dff969b5a607a925e89e.otf",
     "static/media/LinguisticsPro-Regular.otf": "/keeganfalcao/static/media/LinguisticsPro-Regular.b26c785e8e61480815ea.otf",
     "index.html": "/keeganfalcao/index.html",
     "main.3cdb32e8.css.map": "/keeganfalcao/static/css/main.3cdb32e8.css.map",
-    "main.cc1e7a7e.js.map": "/keeganfalcao/static/js/main.cc1e7a7e.js.map"
+    "main.ffaed7ce.js.map": "/keeganfalcao/static/js/main.ffaed7ce.js.map"
   },
   "entrypoints": [
     "static/css/main.3cdb32e8.css",
-    "static/js/main.cc1e7a7e.js"
+    "static/js/main.ffaed7ce.js"
   ]
 }
